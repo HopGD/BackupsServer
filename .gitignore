@@ -1,0 +1,18 @@
+# Variables de entorno y credenciales (NUNCA SUBIR A GIT)
+.env
+*.env
+.env.local
+.env.*.local
+
+# Python y entornos
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Temporales y capturas de prueba
+*.png
+todo.txt
+*.tar.gz
